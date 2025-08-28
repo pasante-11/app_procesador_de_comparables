@@ -1,4 +1,7 @@
-streamlit
-pandas
-openpyxl
-XlsxWriter
+streamlit 
+pandas 
+math
+json
+io
+os
+streamlit.components.v1
