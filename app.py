@@ -195,7 +195,7 @@ Consideraciones:
 - La extracción debe ser precisa y coherente.
 - Realiza una búsqueda rigurosa por internet.
 - Verifica que las páginas estén activas y que los links no den error 404.
-- Entrega solo el formato JSON
+- Entrega solo el formato JSON y el JSON debe estar con el formato dado
 """
 
             st.markdown(f"### {group_name}")
@@ -292,4 +292,5 @@ Consideraciones:
                 file_name="Todos_Grupos_Resultados.xlsx",
                 mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
             )
+
 
