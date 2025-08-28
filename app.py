@@ -169,11 +169,20 @@ if uploaded_file:
 
 Formato de entrega:
 
-{{
-  "Producto": "Nombre del producto original",
-  "Descripción": "Descripción del producto original",
-  "Marca": "Marca del producto original",
-  "Resultados": {{}}
+{{ "Producto": "Nombre del producto original", 
+"Descripción": "Descripción del producto original",
+ "Marca": "Marca del producto original",
+  "Resultados": {{
+     "Comparable 1 en US": "Precio en USD del primer producto comparable",
+     "Comparable 2 en US": "Precio en USD del segundo producto comparable",
+     "Comparable 3 en US": "Precio en USD del tercer producto comparable",
+     "Fuente comparable 1": "NACIONAL o INTERNACIONAL",
+     "Fuente comparable 2": "NACIONAL o INTERNACIONAL", 
+     "Fuente comparable 3": "NACIONAL o INTERNACIONAL",
+     "Link de comparable 1": "URL del producto comparable 1",
+     "Link de comparable 2": "URL del producto comparable 2", 
+     "Link de comparable 3": "URL del producto comparable 3" 
+     }} 
 }}
 
 Consideraciones:
@@ -283,3 +292,4 @@ Consideraciones:
                 file_name="Todos_Grupos_Resultados.xlsx",
                 mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
             )
+
